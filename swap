@@ -3,7 +3,7 @@
 def swap(numList):
     new = numList[-1], numList[0]
     numList[0], numList[-1] = new
-    return new
+    return numList
 
 print(swap([1,2,3,4,5]))        #should print [5,2,3,4,1]
 print(swap([5,2,3,4,1]))        #should print [1,2,3,4,5]
